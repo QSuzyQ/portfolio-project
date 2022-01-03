@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
-  --heading-font-family: "Playfair Display", serif;
+  --branding-color: #dc2f2f;
+  --heading-font-family: "Licorice", cursive;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #ff894c;
 }
 
 body {
