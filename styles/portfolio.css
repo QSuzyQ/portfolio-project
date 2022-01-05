@@ -36,6 +36,11 @@ p {
   line-height: 30px;
 }
 
+.about-image {
+  height: 60%;
+  width: auto;
+}
+
 .author {
   text-align: center;
   font-size: 14px;
@@ -81,6 +86,11 @@ p {
   background-attachment: scroll;
 }
 
+.hero-about {
+  padding: 120px 20px;
+  background-color: #363636;
+}
+
 .hero-inner-text {
   text-align: center;
   padding: 120px 20px;
@@ -88,6 +98,10 @@ p {
 
 .hero h1 {
   color: #ffd700;
+}
+
+.hero-about h1 {
+  font-size: 80px;
 }
 
 .hero h2 {
