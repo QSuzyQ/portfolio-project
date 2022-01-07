@@ -76,6 +76,15 @@ p {
   text-decoration: none;
 }
 
+.contact-links {
+  color: #c9b9b0;
+  text-decoration: none;
+}
+
+.contact-links:hover {
+  color: var(--secondary-color);
+}
+
 .hero {
   /* Sizing */
   width: 100vw;
