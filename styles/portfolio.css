@@ -214,6 +214,11 @@ p {
     margin-top: 20px;
   }
 
+  .about-image {
+    height: 40%;
+    width: auto;
+  }
+
   .about-image-wrapper {
     margin-top: 40px;
     padding-left: 0;
