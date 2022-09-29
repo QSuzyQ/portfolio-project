@@ -188,6 +188,11 @@ p {
   line-height: 30px;
 }
 
+.img-link:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+
 .project-description {
   padding: 120px 60px;
 }
