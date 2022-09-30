@@ -85,13 +85,17 @@ p {
 }
 
 .about-image {
-  height: 60%;
+  height: 50%;
   width: auto;
 }
 
 .about-image-wrapper {
   display: flex;
   justify-content: center;
+}
+
+.abstract p {
+  font-size: 18px;
 }
 
 .btn-branding {
@@ -157,7 +161,12 @@ p {
 
 .hero-inner-text {
   text-align: center;
-  padding: 120px 20px;
+  padding: 100px 50px;
+}
+
+.hero-about-inner-text {
+  text-align: left;
+  padding: 100px 0 0 200px;
 }
 
 .hero h1,
@@ -201,6 +210,15 @@ p {
   padding: 70px 0 0;
 }
 
+.text-link {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.text-link:hover {
+  color: var(--secondary-color);
+}
+
 .work-heading {
   font-size: 106px;
 }
@@ -218,7 +236,7 @@ p {
   }
 
   .about-image {
-    height: 40%;
+    height: 60%;
     width: auto;
   }
 
@@ -235,12 +253,9 @@ p {
     padding-top: 30px;
   }
 
-  .hero-about-inner-text {
-    text-align: center;
-  }
-
   .hero-inner-text {
-    padding: 80px 20px;
+    padding: 40px 20px;
+    text-align: center;
   }
 
   .project-description {
