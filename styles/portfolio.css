@@ -245,6 +245,10 @@ p {
     padding-left: 0;
   }
 
+  .abstract {
+    text-align: center;
+  }
+
   .hero h2 {
     font-size: 22px;
   }
@@ -253,7 +257,8 @@ p {
     padding-top: 30px;
   }
 
-  .hero-inner-text {
+  .hero-inner-text,
+  .hero-about-inner-text {
     padding: 40px 20px;
     text-align: center;
   }
